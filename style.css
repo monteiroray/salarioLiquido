@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(59, 150, 72);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    color: white;
+   
+}
+
+#banner{
+    margin: auto;
+    width: 100%;
+}
+
+header img{
+    height: 50px;
+  
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none; 
+    align-items: center;
+}
+header li{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+#clic{
+    background-color: brown;
+    padding: 7px;
+    width: 70px;
+    border-radius: 10px;
+}
+h1,h2,hr {
+    color: rgb(157, 83, 106);
+    text-align: center;
+    width: 100%;
+   } 
+p {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+
+  }
+ #adorno{
+    margin: auto;
+ }
+
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    text-align: center;
+    color: rgb(133,64,87);
+    margin: auto;
+    
+ }
+ main img{
+    margin: auto;
+    display: flex;
+ }
+main h2 ,h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(133,64,87);
+
+}
+main p{
+    text-align: center;
+    width: 100%;
+}
+ hr{
+    background: rgb(133,64,87);
+    width: 100%;
+    border:none;
+    height: 2px;
+}
+
+ footer{
+   text-overflow: clip;
+    background-color: rgb(150, 75, 121);
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-self: auto;
+    padding: 30px;
+    justify-content: center;
+ }
+ footer div{
+    width: 400px;
+    
+}
+footer hr{
+    width: 100%;
+
+}
+ footer img{
+    margin-left: auto;
+    height: 40px;
+ }
+.produto{
+    width: 250px;
+    max-width: 1110px;
+}
+
+.produto img{
+    width: 250px;
+    max-width: 1110px;
+
+}
+#barra{
+    min-width: 400px;
+}
+#copy{
+    width: 100%;
+    text-align: center;
+}
+#linha-rodape{
+    margin-top: 70px;
+}
